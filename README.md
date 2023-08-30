@@ -1,8 +1,8 @@
 # bilibili_mp3
 下载b站视频并转成mp3格式
 需要you-get和ffmpeg的支持
-运行 pip install you-get 以安装you-get
-从官网下载ffmpeg解压并正确设置环境变量
+命令行运行 pip install you-get 以[安装you-get](https://blog.csdn.net/star_of_science/article/details/105179910)
+从官网下载[ffmpeg解压并正确设置环境变量](https://blog.csdn.net/yyy_gy/article/details/130486760)
 
 ## 使用说明：
 ![教程](https://github.com/MS10755/bilibili_mp3/blob/master/test.gif)
