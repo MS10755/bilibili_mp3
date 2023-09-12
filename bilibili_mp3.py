@@ -12,7 +12,7 @@ def get_mp4_file_name():
 
 
 def download(url):
-    os.system('you-get -F dash-flv480 --no-caption %s' % url)
+    os.system('you-get -k -F dash-flv480 --no-caption %s' % url)
     name = get_mp4_file_name()
     cmd = 'ffmpeg -i "%s.mp4" -vn "%s.mp3"' % (name, name)
     os.system(cmd)
